@@ -12,7 +12,7 @@
     {
       "name": "Demo",
       "configuration": {
-        "videoId": "1"
+        "h5pID": "1"
       }
     }
   ],
