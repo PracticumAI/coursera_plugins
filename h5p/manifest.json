@@ -1,0 +1,29 @@
+{
+  "short_name": "h5p content",
+  "name": "h5p",
+  "description": "Embed an H5P iframe",
+  "maintainer": {
+    "name": "Matt Gitzendanner",
+    "email": "magitz@ufl.edu"
+  },
+  "version": "0.0.1",
+  "sandbox": "allow-presentation allow-scripts allow-same-origin",
+  "configurationExamples": [
+    {
+      "name": "Demo",
+      "configuration": {
+        "videoId": "1"
+      }
+    }
+  ],
+  "authorizations": {},
+  "actionTypes": ["GET_SESSION_CONFIGURATION", "SET_HEIGHT"],
+  "macros": [],
+  "accessibility": {
+    "mobileCompatibility": {
+      "supportsTouch": true,
+      "minHeightPx": 0,
+      "minWidthPx": 0
+    }
+  }
+}
